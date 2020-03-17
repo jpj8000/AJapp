@@ -5,7 +5,6 @@ document.addEventListener("mouseover", (event) => {
 });
 
 function moveThing(event) {
-    let pic = document.getElementById("pic");
     let xPosition = event.clientX;
     let yPosition = event.clientY;
     pic.style.left = xPosition + "px";
